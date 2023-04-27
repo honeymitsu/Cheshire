@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Position Property</title>
+    <link rel="shortcut icon" herf="images/css2.png">
+    <style>
+        .container{
+            border: 2px black dotted;
+            background-color: burlywood;
+            height: 100;
+            width:100;
+        }
+        .box{
+            background-color: coral;
+            width: 200px;
+            height: 200px;
+            text-align: center;
+            display: inline-block;
+        }
+        #one{
+            position: static;
+            top: 50px;
+            left: 50px;
+            background-color: #ffcdab;
+        }
+        #two{
+            position: relative;
+            top:50px;
+            left: 50px;
+            background-color: #f00;
+            border-radius: 20px;
+        }
+        #three{
+            position: absolute;
+            top:50px;
+            left:80px;
+            background-color: powderblue;
+            border-radius: 20px;
+        }
+        #four{
+            position: fixed;
+            top:150px;
+            left:300px;
+            background-color: #ea7dc7;
+            border-radius: 20px;
+        }
+        #five{
+            position: sticky;
+            top:200px;
+            left:200px;
+            background-color: powderblue;
+            border-radius: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box" id="one">One-static</div>
+        <div class="box" id="two">Two-relative</div>
+        <div class="box" id="three">Three</div>
+        <div class="box" id="four">Four</div>
+        <div class="box" id="five">Five</div>
+    </div>
+</body>
+</html>

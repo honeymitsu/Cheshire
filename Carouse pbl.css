@@ -1,0 +1,81 @@
+.container{
+    border: 2px black dotted;
+    background-color: rgb(0, 0, 0);
+    height: 100;
+    width:100;
+}
+.box{
+    background-color: coral;
+    text-align: center;
+    display: inline-block;
+}
+#one{
+    position: static;
+    top: 50px;
+    left: 50px;
+    background-color: #ffcdab;
+}
+#two{
+    position: relative;
+    top:50px;
+    left: 50px;
+    background-color: #f00;
+    border-radius: 20px;
+}
+#three{
+    position: absolute;
+    
+    top:50px;
+    left:80px;
+    background-color: powderblue;
+    border-radius: 20px;
+}
+/* Best Seller Food */
+.Best-Seller-h1{
+    font-weight: bolder;
+    text-align: center;
+}
+.best-seller{
+    background-color: #000000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+.best-sellercard img{
+    width: 350px;
+    height: 500px;
+}
+.best-sellercard{
+    width: 350px;
+    height: 610px;
+    border-radius: 10px; 
+    display: inline-block;   
+    overflow: hidden;   
+    box-shadow: #ffffff  0px 20px 30px -10px;
+    margin: 20px;
+    vertical-align: top;
+    line-height: 25px;
+    letter-spacing: 1px; 
+    background-color: #000000;
+}
+.button-seemore{
+    width: 150px;
+    height: 40px;
+    display: block;
+    left: 50%;
+    bottom: 0;
+    border-radius: 10px;
+    background-color: #ff443a ;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.button-seemore a{
+    text-decoration: none; 
+    display: block;   
+    color: #fff; 
+}
+.button-seemore:hover{
+    background-color: gray;
+}

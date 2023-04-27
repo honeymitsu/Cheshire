@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    background-color: #F2D388;
+}
+.logo{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:10px 0 ;
+}
+.logo ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 0 30px;
+    color: black;
+}
+.logo ul li a{
+    color: black;
+    width: 100px;
+    padding: 15px 0;
+    text-align: center;
+    border: 2px solid white;
+    font-weight: bold;
+    text-decoration: none;
+    display: block;
+    background-color: transparent;
+    margin: 10px;
+}
+.logo ul li a:hover{
+    box-shadow: gray  1.95px 1.95px 0px ;
+    transition: 0.5%;
+}
+
+/*dropdown for food and drink*/
+.dropdown-content-food{
+    display: none;
+    position: absolute;
+    background-color: #F2D388;
+    color: black;
+    width: 120px;
+    padding: 0;
+    text-align: center;
+    /*border: 2px solid white;*/
+    font-weight: bold;
+    text-decoration: none;
+    /*margin: 10px;*/
+    margin: 0;
+    z-index: 1;
+}
+.dropdown-content-food a {
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content-food a:hover{
+    box-shadow: gray  1.95px 1.95px 0px ;
+    transition: 0.5%;
+}
+.food:hover .dropdown-content-food{
+    display: block;
+}
+
+.dropdown-content-drink {
+    display: none;
+    position: absolute;
+    background-color: #F2D388;
+    color: black;
+    width: 120px;
+    padding:  0;
+    text-align: center;
+    /*border: 2px solid white;*/
+    font-weight: bold;
+    text-decoration: none;
+    margin: 0rem;
+    z-index: 1;
+}
+.dropdown-content-drink a {
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content-drink a:hover{
+    box-shadow: gray  1.95px 1.95px 0px ;
+    transition: 0.5%;
+}
+.drink:hover .dropdown-content-drink{
+    display: block;
+}
