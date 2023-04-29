@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Grape Nuts', cursive;
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+}
+.space{
+    height: 40px;
+    background-color: #d9d9d9;
+}
+/*header*/
+.header{
+    background-color: black;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+.logo{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:10px 0 ;
+}
+.logo ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 0 10px;
+    color: white;
+}
+.logo ul li a{
+    color: white;
+    width: 100px;
+    padding: 15px 0;
+    text-align: center;
+    border: 2px solid #d9d9d9;
+    font-weight: bold;
+    text-decoration: none;
+    display: block;
+    background-color: transparent;
+    margin: 10px;
+}
+
+/*dropdown in header*/
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: black;
+    color: black;
+    width: 120px;
+    padding: 0;
+    text-align: center;
+    /*border: 2px solid white;*/
+    font-weight: bold;
+    text-decoration: none;
+    /*margin: 10px;*/
+    margin: 0;
+    z-index: 1;
+}
+.dropdown-content a {
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover{
+    box-shadow: gray  1.95px 1.95px 0px ;
+    transition-delay: 10s;
+}
+.food:hover .dropdown-content{
+    display: block;
+}
+/* Best Seller Food */
+.Best-Seller-h1{
+    font-weight: bolder;
+    text-align: center;
+    height: 50px;
+    color: white;
+}
+.best-seller{
+    background-color: #000000;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+.best-sellercard img{
+    width: 350px;
+    height: 400px;
+}
+.best-sellercard{
+    width: 375px;
+    height: 475px;
+    border-radius: 10px; 
+    display: inline-block;   
+    overflow: hidden;   
+    box-shadow: #ffffff  0px 20px 30px -10px;
+    margin: 20px;
+    vertical-align: top;
+    line-height: 25px;
+    letter-spacing: 1px; 
+    background-color: #000000;
+}
+
+
