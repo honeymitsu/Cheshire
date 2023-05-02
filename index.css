@@ -99,5 +99,75 @@
     letter-spacing: 1px; 
     background-color: #000000;
 }
+/* Famous Book */
+.famous-book-h1{
+    font-weight: bolder;
+    text-align: center;
+    height: 50px;
+    color: white;
+}
+.famous-book{
+    background-color: #000000;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+.famous-bookcard img{
+    width: 350px;
+    height: 400px;
+}
+.famous-bookcard{
+    width: 375px;
+    height: 475px;
+    border-radius: 10px; 
+    display: inline-block;   
+    overflow: hidden;   
+    box-shadow: #ffffff  0px 20px 30px -10px;
+    margin: 20px;
+    vertical-align: top;
+    line-height: 25px;
+    letter-spacing: 1px; 
+    background-color: #000000;
+}
+/* footer */
+
+.black-footer{
+    background-color: black ;
+}
+.black-footer div{
+    padding-right: 150px;
+    padding-left: 150px;
+}
+
+.link-website{
+    width: 50%;
+    float: left;
+    text-align: center;
+    background-color: black;
+}
+.link-website p{
+    color: white;
+}
+.link-website a{
+    text-decoration: none;
+    color: white;
+}
+.link-website p{
+    text-align: left;
+}
+.member-name p{
+    color: white;
+}
+.member-name{
+    width: 50%;
+    float: right;
+    text-align: left;
+    color: white;
+    background-color: black;
+}
+.copyright{
+    text-align: center;
+}
+
 
 
