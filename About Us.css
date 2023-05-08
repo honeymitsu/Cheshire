@@ -1,0 +1,86 @@
+/*Shop Story*/
+.container1{
+    width:100%;
+    display:flex; 
+    justify-content: space-around ;
+    align-items: center;
+    background-color: #1b1b1b;
+    color: white;
+    height: 400px;
+    padding:0 0 0 0px;
+}
+.content1-section{
+    margin:0 30px ;
+    width:65%;
+    padding:0 ;
+}
+.image-section1{
+    padding: 0;
+    width:35%;
+}
+.image-section1 img{
+    padding-left: 30px;
+    width: 300px;
+    height:300px;
+} 
+.content1-section h1{
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+/*Shop Goal*/
+.container2{
+    width:100%;
+    display:flex; 
+    justify-content: space-around ;
+    align-items: center;
+    background-color: #1b1b1b;
+    color: white;
+    height: 400px;
+    padding:0 0 0 0px;
+}
+.content2-section{
+    margin:0 30px ;
+    width:65%;
+    padding: 0 ;
+}
+.image-section2{
+    padding: 0;
+    width:35%;
+}
+.image-section2 img{
+    width: 300px;
+    height:300px;
+} 
+.content2-section h1{
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+/*Team Members*/
+.sub-container{
+   width: 100%;
+   
+   margin: auto;
+   padding: 0;
+   display: flex; 
+   flex-wrap: wrap;
+   justify-content: center ;
+   background-color: #1b1b1b;
+   color: white;
+}
+.teams{
+    margin: 10px;
+    padding: 20px;
+    max-width: 20%;
+    cursor: pointer;
+    transition: 0.4;
+}
+
+.teams img{
+    width: 100px;
+    height: 100px;
+}
+.name{
+    text-align: center;
+}
