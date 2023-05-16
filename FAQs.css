@@ -1,0 +1,22 @@
+.topic{
+    background-color: #aed6f1;
+    color: black;
+    text-align: center;
+    padding-bottom: 5px;
+}
+.FAQs{
+    background-color: #aed6f1;
+    color: black;
+    padding-left: 150px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.questions{
+    padding-bottom: 10px;
+    font-size: 32px;
+    font-weight: bold;
+}
+.answers{
+    font-size: 22px;
+    padding-left: 40px;
+}

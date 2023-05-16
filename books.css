@@ -1,0 +1,30 @@
+.books{
+    width:100%;
+    display:flex; 
+    justify-content: space-around ;
+    align-items: center;
+    background-color: #aed6f1;
+    color: black;
+    height: 500px;
+    padding:0 0 0 0px;
+}
+.book-h1{
+    margin:0 30px ;
+    width:45%;
+    padding:0 ;
+}
+.book-img{
+    padding-left: 120px;
+    width:55%;
+}
+.book-img img{
+    width: 300px;
+    height:300px;
+} 
+.book-h1 h1{
+    text-transform: uppercase;
+    font-size: 25px;
+}
+.book-h1 p{
+    padding-left: 50px;
+}

@@ -1,77 +1,7 @@
-*{
-    margin: 0;
-    padding: 0;
-    font-family: 'Grape Nuts', cursive;
-    font-family: 'Open Sans', sans-serif;
-    box-sizing: border-box;
-}
-.space{
-    height: 40px;
-    background-color: #d9d9d9;
-}
-/*header*/
-.header{
-    background-color: black;
-    padding-left: 70px;
-    padding-right: 70px;
-}
-.logo{
-    width: 90%;
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding:10px 0 ;
-}
-.logo ul li{
-    list-style-type: none;
-    display: inline-block;
-    margin: 0 10px;
-    color: white;
-}
-.logo ul li a{
-    color: white;
-    width: 100px;
-    padding: 15px 0;
-    text-align: center;
-    border: 2px solid #d9d9d9;
-    font-weight: bold;
-    text-decoration: none;
-    display: block;
-    background-color: transparent;
-    margin: 10px;
-}
 
-/*dropdown in header*/
-.dropdown-content{
-    display: none;
-    position: absolute;
-    background-color: black;
-    color: black;
-    width: 120px;
-    padding: 0;
-    text-align: center;
-    /*border: 2px solid white;*/
-    font-weight: bold;
-    text-decoration: none;
-    /*margin: 10px;*/
-    margin: 0;
-    z-index: 1;
-}
-.dropdown-content a {
-    text-decoration: none;
-    display: block;
-}
-.dropdown-content a:hover{
-    box-shadow: gray  1.95px 1.95px 0px ;
-    transition-delay: 10s;
-}
-.food:hover .dropdown-content{
-    display: block;
-}
 /*Welcome*/
 .welcome{
-    background-color:black;
+    background-color:#AED6F1;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -82,8 +12,8 @@ h1{
     text-align: center;
 }
 .text{
-    background-color: black;
-    color:white;
+    background-color:#AED6F1;
+    color:black;
     width: 50%;
     height: 400px;
     text-align: center;
@@ -107,13 +37,13 @@ h1{
     font-weight: bolder;
     text-align: center;
     height: 50px;
-    color: white;
+    color: black;
 }
 .best-seller{
-    background-color: #000000;
+    background-color: #AED6F1;
     justify-content: space-between;
     align-items: center;
-    color: white;
+    color: black;
 }
 .best-sellercard img{
     width: 350px;
@@ -130,20 +60,20 @@ h1{
     vertical-align: top;
     line-height: 25px;
     letter-spacing: 1px; 
-    background-color: #000000;
+    background-color: #AED6F1;
 }
 /* Famous Book */
 .famous-book-h1{
     font-weight: bolder;
     text-align: center;
     height: 50px;
-    color: white;
+    color: black;
 }
 .famous-book{
-    background-color: #000000;
+    background-color: #AED6F1;
     justify-content: space-between;
     align-items: center;
-    color: white;
+    color: black;
 }
 .famous-bookcard img{
     width: 350px;
@@ -160,46 +90,62 @@ h1{
     vertical-align: top;
     line-height: 25px;
     letter-spacing: 1px; 
-    background-color: #000000;
+    background-color: #AED6F1;
 }
 /*Events*/
-.books{
+.events{
     width:100%;
     display:flex; 
     justify-content: space-around ;
     align-items: center;
-    background-color: #1b1b1b;
-    color: white;
+    background-color: #AED6F1;
+    color: black;
     height: 400px;
     padding: 0;
 }  
 .events-title{
     width:100%;
-    background-color: #1b1b1b;
-    color: white;
+    background-color: #AED6F1;
+    color: black;
     margin-bottom: 0px;
     text-decoration-line: underline;
+    padding-top: 10px;
 
 }
-.book-h1{
+.event-h1{
     margin:0 30px ;
     width:45%;
     padding:0 ;
 }
-.book-img{
+.event-img{
     padding-left: 120px;
     width:55%;
 }
-.book-img img{
+.event-img img{
     width: 300px;
     height:300px;
 } 
-.book-h1 h1{
+.event-h1 h1{
     text-transform: uppercase;
     font-size: 25px;
 }
-.book-h1 p{
+.event-h1 p{
     padding-left: 50px;
+}
+.events-btn{
+    font-size: 16px;
+    margin-top: 30px;
+    padding: 10px 0;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    width: 20%;
+    background-color: black;
+    cursor: pointer;
+}
+.events-btn a{
+    text-decoration: none;
+    color: #AED6F1;
 }
 
 
@@ -219,6 +165,7 @@ h1{
     float: left;
     text-align: center;
     background-color: black;
+    height: 40vh;
 }
 .link-website p{
     color: white;
@@ -239,10 +186,18 @@ h1{
     text-align: left;
     color: white;
     background-color: black;
+    height: 40vh;
 }
 .copyright{
     text-align: center;
+    background-color: white;
+    width: 100%;
+    height: 20px;
 }
 
+
+@media screen and (min-width:480px){
+    
+}
 
 

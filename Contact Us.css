@@ -1,0 +1,64 @@
+.Contact-Us {    
+    background-color: #aed6f1; 
+    height: 70vh;
+}
+.Contact-title{
+    text-align: center;
+    padding-bottom: 45px;
+    color: black;
+    background-color: #aed6f1;
+}
+.Contact-column{
+    width: 50%;
+    height: 70vh;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 20px;
+    float: left;
+    background-color: #aed6f1;
+    margin-top: -20px;
+}
+.field{
+    width: 80%;
+    padding: 8px 16px;
+    outline: none;
+    border: 2px solid rgba(0, 0, 0, 0);
+    border-radius: 15px;
+    background-color: rgba(224, 215, 199, 0.8);
+    font-size: 17px;
+    margin-bottom: 30px;
+    transition: .3s;
+}
+.field:hover{
+    background-color: rgb(255, 255, 255);   
+}
+.field:focus{
+    background-color: #fff;
+    border: 2px solid rgba(30, 85, 250, 0.47);
+}
+.contact-area{
+    min-height: 150px;
+}
+.contact-btn{
+    width: 35%;
+    padding: 8px 16px;
+    font-size: 17px;
+    background-color: #ff443a;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    color: #fff;
+    transition: .3s;
+}
+.contact-btn:hover{
+    background-color: grey;
+}
+.Contact-column i{
+    margin-left: 25px;
+    font-size: 30px;
+}
+.Contact-right{
+    color: white;
+    padding-left: 60px;
+}

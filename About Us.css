@@ -4,8 +4,8 @@
     display:flex; 
     justify-content: space-around ;
     align-items: center;
-    background-color: #1b1b1b;
-    color: white;
+    background-color: #AED6F1;
+    color: black;
     height: 400px;
     padding:0 0 0 0px;
 }
@@ -34,8 +34,8 @@
     display:flex; 
     justify-content: space-around ;
     align-items: center;
-    background-color: #1b1b1b;
-    color: white;
+    background-color: #AED6F1;
+    color: black;
     height: 400px;
     padding:0 0 0 0px;
 }
@@ -66,8 +66,8 @@
    display: flex; 
    flex-wrap: wrap;
    justify-content: center ;
-   background-color: #1b1b1b;
-   color: white;
+   background-color: #AED6F1;
+   color: black;
 }
 .teams{
     margin: 10px;
