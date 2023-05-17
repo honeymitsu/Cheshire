@@ -62,3 +62,15 @@
     color: white;
     padding-left: 60px;
 }
+.fa-brands{
+    color: black;
+}
+.fa-brands:hover{
+    color: blue;
+}
+.fa-solid{
+    color: black;
+}
+.fa-solid:hover{
+    color: blue;
+}

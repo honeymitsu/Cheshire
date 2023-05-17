@@ -28,3 +28,15 @@
 .book-h1 p{
     padding-left: 50px;
 }
+/*Events*/
+.book-h1-1{
+ font-size: 20px; 
+ padding-right: 50px;
+}
+.book-info-1{
+font-size: larger;
+text-align: center;
+}
+.book-info p{
+    font-weight: bold;
+}

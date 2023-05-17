@@ -9,9 +9,17 @@
     height: 40px;
     background-color: #ffffff;
 }
+.space-title{
+    height: 15px;
+    background-color: #ffffff;
+}
 .line{
-    height: 1px;
+    height: 5px;
     background-color: white;
+}
+.Coloum{
+    height: 2px;
+    background-color: #4B7Fa2;
 }
 /*header*/
 .header{
@@ -20,6 +28,7 @@
     padding-right: 70px;
     position: sticky;
     top: 0;
+    height: 150px;
 }
 .logo{
     width: 90%;
