@@ -46,7 +46,7 @@ h1{
     color: black;
 }
 .best-sellercard img{
-    width: 350px;
+    width: 375px;
     height: 400px;
 }
 .best-sellercard{
@@ -60,7 +60,10 @@ h1{
     vertical-align: top;
     line-height: 25px;
     letter-spacing: 1px; 
-    background-color: #AED6F1;
+    background-color: #b5c1e9;
+}
+.best-sellercard h4{
+    padding: 10px;
 }
 /* Famous Book */
 .famous-book-h1{
@@ -76,7 +79,7 @@ h1{
     color: black;
 }
 .famous-bookcard img{
-    width: 350px;
+    width: 375px;
     height: 400px;
 }
 .famous-bookcard{
@@ -90,7 +93,10 @@ h1{
     vertical-align: top;
     line-height: 25px;
     letter-spacing: 1px; 
-    background-color: #AED6F1;
+    background-color: #b5c1e9;
+}
+.famous-bookcard h4{
+    padding: 10px;
 }
 /*Events*/
 .events{
